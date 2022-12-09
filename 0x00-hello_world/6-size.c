@@ -3,7 +3,7 @@
 /**
  * main - Print size of many variable types
  *
- * Return: 0
+ * Return: Always 0 (success)
  */
 int main(void)
 {
