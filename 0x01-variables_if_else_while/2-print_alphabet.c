@@ -1,14 +1,14 @@
-#include <stdio.h>
+#include <stsdio.h>
 
 /**
- * main - Print lower case alphabets
+ * main - prints lower case alphabets
  * Return: Always 0
  */
 int main(void)
 {
 	char lc;
-
-	for (lc = 'a'; lc <= 'z'; lc++)
+	
+	for (lc = 'a'; lc <= 'z'; lc++);
 	{
 		putchar(lc);
 	}
