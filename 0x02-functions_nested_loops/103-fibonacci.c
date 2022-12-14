@@ -12,7 +12,7 @@ int main(void)
 
 	while (1)
 	{
-		fibsum = fib1 + fib2; 
+		fibsum = fib1 + fib2;
 		if (fibsum > 4000000)
 			break;
 
@@ -20,9 +20,9 @@ int main(void)
 			tot_sum += fibsum;
 
 		fib1 = fib2;
-		fib = fibsum
+		fib2 = fibsum;
 	}
-	printf("%.of\n",tot_sum);
+	printf("%.0f\n", tot_sum);
 
-	retuen (0);
+	return (0);
 }
