@@ -3,16 +3,12 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
- * Return: Always 0
- *
- */
-
+  * main - Entry point
+  * Return: (0)
+  */
 int main(void)
 {
 	int n;
-	int x;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -29,6 +25,5 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
 	}
-
 	return (0);
 }
