@@ -8,7 +8,7 @@
  * 	-1 if the number is less than zero
  */
 
-int print_sign(int n);
+int print_sign(int n)
 {
 	if (n > 0)
 	{
@@ -22,7 +22,7 @@ int print_sign(int n);
 	}
 	else
 	{
-		_putchar(-1);
+		_putchar('-');
 		return (-1);
 	}
 }
