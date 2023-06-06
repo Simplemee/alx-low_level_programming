@@ -2,7 +2,7 @@
 
 /**
  * main - Prints all possible combinations of two different digits
- *        
+ *
  * Return: 0.
  */
 
