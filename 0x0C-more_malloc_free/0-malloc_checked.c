@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 
 /**
  * *malloc_checked - Using malloc to allocate memory and exit if failed
@@ -8,10 +8,10 @@
 
 void *malloc_checked(unsigned int b)
 {
-	void *i;
+	void *x;
 
-	i = malloc(b);
-	if (i == NULL)
+	x = malloc(b);
+	if (x == NULL)
 		exit(98);
-	return (i);
+	return (x);
 }
