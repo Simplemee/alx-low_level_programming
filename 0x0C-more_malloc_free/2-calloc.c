@@ -9,10 +9,12 @@
  * @size: size of each element in bytes
  * Return: allocated memory's pointer.
  */
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *allocated_memory;
 	unsigned int index;
+
 	if (nmemb == 0 || size == 0)
 		return (NULL);
 	allocated_memory = malloc(nmemb * size);
